@@ -1,7 +1,6 @@
 
 [org.gnome.software]
 download-updates = false
-show-nonfree-software = true
 allow-updates = false
 show-ratings = true
 
@@ -49,12 +48,12 @@ always-show-log-out=true
 [org.gnome.settings-daemon.plugins.xsettings]
 antialiasing='rgba'
 
+
 [org.gnome.shell.extensions.dash-to-dock]
-background-opacity = '0'
 isolate-workspaces = true
-opaque-background = true
+opaque-background = false
 show-show-apps-button = false
-dock-position 'BOTTOM'
+dock-position = 'BOTTOM'
 
 [org.gnome.shell.extensions.topicons]
 tray-pos = 'right'
