@@ -54,6 +54,7 @@ isolate-workspaces = true
 opaque-background = false
 show-show-apps-button = false
 dock-position = 'BOTTOM'
+show-show-apps-button = true
 
 [org.gnome.shell.extensions.topicons]
 tray-pos = 'right'
